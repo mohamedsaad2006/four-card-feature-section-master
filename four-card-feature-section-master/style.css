@@ -101,10 +101,17 @@ footer{
     text-align: center;
 
 }
+img{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
 @media screen and (max-width: 768px) {
     .container {
      display: flex;
      flex-direction: column;
+
     
     }
     
