@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.ttribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: var(--Very-Light-Gray);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 3rem;
+    
+    
+
+}
+h1{
+    width: 380PX;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+
+}
+span{
+    font-weight: 600;
+}
+.main-title p{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--Grayish-Blue);
+    margin-bottom: 4rem;
+}
+    
+
+
+.supervisor{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border-top: 5px solid var(--Cyan);
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 5px 5px 10px var(--Very-Dark-Blue);   
+    border-radius: 5px;
+    
+   
+}
+.team-Builder{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-top: 5px solid var(--Red);
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 5px 5px 5px var(--Very-Dark-Blue);   
+    border-radius: 5px;
+   
+}
+.karma{
+    grid-column: 2/3;
+    grid-row: 3/5;
+    border-top: 5px solid var(--Orange);
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 5px 5px 5px var(--Very-Dark-Blue);   
+    border-radius: 5px;
+    
+}
+.calculator{
+   grid-column: 3/4;
+   grid-row: 2/4;
+   border-top: 5px solid var(--Blue);
+   font-size: 12px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 3px 5px var(--Very-Dark-Blue);   
+    border-radius: 5px;
+   
+}
+
+
+footer{
+    top: 10rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 768px) {
+    .container {
+     display: flex;
+     flex-direction: column;
+    
+    }
+    
+  }
+    
